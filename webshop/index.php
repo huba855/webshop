@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Guitar Shop</title>
 <meta name="description" content="[add your bin description]">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/
 reset.css">
- <link href='style_fo' rel='stylesheet'>
+ <link href='style_fo.css' rel='stylesheet'>
 
 
 
