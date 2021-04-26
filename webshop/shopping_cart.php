@@ -52,6 +52,12 @@ print "A kosarad üres";
 
 <form method="POST" action="order.php">
 Név: <input type="text" name="name"/>
+Telefonszám: <input type="text" name="phone"/>
+Szállítási cím: <input type="text" name="address"/>
+Fizetés módja: <input type="radio" name="pay" id="radio1" value="Készpénz">
+  <input type="radio" name="pay" id="radio2" value="Bankkártya">
+  <input type="radio" name="pay" id="radio3" value="Utalás">
+  
 <button>Rendelés véglegesítése</button>
 </form>
 
