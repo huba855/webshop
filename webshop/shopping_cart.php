@@ -54,9 +54,9 @@ print "A kosarad üres";
 Név: <input type="text" name="name"/>
 Telefonszám: <input type="text" name="phone"/>
 Szállítási cím: <input type="text" name="address"/>
-Fizetés módja: <input type="radio" name="pay" id="radio1" value="Készpénz">
-  <input type="radio" name="pay" id="radio2" value="Bankkártya">
-  <input type="radio" name="pay" id="radio3" value="Utalás">
+Fizetés módja: <br><input type="radio" name="pay" id="radio1" value="Készpénz"><label for="Készpénz">Készpénz</label>
+  <br><input type="radio" name="pay" id="radio2" value="Bankkártya"><label for="Bankkártya">Bankkártya</label>
+  <br><input type="radio" name="pay" id="radio3" value="Utalás"><label for="Utalás">Utalás</label>
   
 <button>Rendelés véglegesítése</button>
 </form>
