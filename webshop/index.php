@@ -1,3 +1,6 @@
+<?php 
+include './cart.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>

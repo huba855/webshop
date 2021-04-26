@@ -1,3 +1,6 @@
+<?php 
+include './cart.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +15,6 @@
 <h1><u>Gitárok</u></h1>
 <?php
     
-    $db = new SQLite3('./guitarshop.sqlite');
     $results = $db->query("select * from termekek");
         // html táblázatként íratjuk ki;
         $kimenet="";
