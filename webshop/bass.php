@@ -12,6 +12,7 @@ include './cart.php';
 
 </head>
 <body>
+	<?php include './menu.php'; ?>
 <h1><u>Bass guitars</u></h1>
 <?php
     
