@@ -5,7 +5,7 @@
 
 <title>Gitárok</title>
 
-<link rel='stylesheet' href='style2.css'>
+<link rel='stylesheet' href='./static/style2.css'>
 
 </head>
 <body>
@@ -20,7 +20,7 @@
 	$kimenet.="
 	<div id='fo'>
 	<h2>{$row['nev']}</h2>
-	<img id='kep' src={$row['kep']}>
+	<img id='kep' src=./static/{$row['kep']}>
 	<p id={$row['leiras']}>
     	</p>
 	<p id={$row['ar']}></p>
