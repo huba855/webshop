@@ -28,6 +28,7 @@ include './cart.php';
 	<p id={$row['ar']}></p>
 	<form method='post' action='add_to_cart.php'>
    	<input id='db' type='text' name='darab' value='0'><button>Kosárba</button>
+        <input type='hidden' name='id' value={$row['id']}>
         </form>
 	</div>";}
         
