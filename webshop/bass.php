@@ -6,16 +6,16 @@ include './cart.php';
 <head>
 <meta charset='utf-8'>
 
-<title>Gitárok</title>
+<title>Bass guitars</title>
 
 <link rel='stylesheet' href='./static/style2.css'>
 
 </head>
 <body>
-<h1><u>Gitárok</u></h1>
+<h1><u>Bass guitars</u></h1>
 <?php
     
-    $results = $db->query("select * from termekek where typeId = 0");
+    $results = $db->query("select * from termekek where typeId = 1");
         // html táblázatként íratjuk ki;
         $kimenet="";
         while ($row= $results->fetchArray()){
@@ -26,9 +26,8 @@ include './cart.php';
 	<p id={$row['leiras']}>
     	</p>
 	<p id={$row['ar']}></p>
-	<form method='post' action='add_to_cart.php'>
+	<form>
    	<input id='db' type='text' name='darab' value='0'><button>Kosárba</button>
-        <input type='hidden' name='id' value={$row['id']}>
         </form>
 	</div>";}
         

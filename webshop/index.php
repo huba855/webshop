@@ -41,17 +41,23 @@ setInterval(function() {
     <div id="cimkont">
       <img id="cimkep" alt="guitar shop" src="https://thumbs.dreamstime.com/b/guitar-shop-logo-crossing-guitars-black-white-two-best-92797459.jpg">
      </div>
-    
-    <div id="kosar">
-   <p>Kosár: 0 tétel</p>
-    </div> 
+<?php
+if(isset($_SESSION["items"]))
+{
+        echo "<div id='kosar'><p>Kosárban lévő termékek száma: ". count($_SESSION["items"]) ."</p>";
+
+        //echo count($_SESSION["items"]);
+        //var_dump($_SESSION["items"]);
+}    
+?>
     
   <div id="menu">
     
 	<a href="gitarok.php" class="alap gitarok"><u>Gitárok</u></a>
-    <a class="alap erositok"><u>Erősítők</u></a>
-    <a class="alap kiegeszitok"><u>Kiegészítők</u></a>
-    <a class="alap kosar"><u>Kosár</u></a>
+    <a href="bass.php" class="alap gitarok"><u>Basszus gitárok</u></a>
+    <a href="amps.php" class="alap erositok"><u>Erősítők</u></a>
+    <a href="misc.php" class="alap kiegeszitok"><u>Kiegészítők</u></a>
+    <a href="shoppingcart.php" class="alap kosar"><u>Kosár</u></a>
 	
   </div>
     
