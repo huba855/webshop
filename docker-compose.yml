@@ -22,6 +22,7 @@ services:
         image: php:fpm
         volumes:
             - ./webshop:/app
+            - ./:/install
         networks:
             - internal
         labels:
