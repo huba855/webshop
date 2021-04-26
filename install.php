@@ -34,7 +34,7 @@ $db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Ibanez IEG
 $db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Dunlop - Max Grip Standard pengető', 250, 'Méretek:\r\n0.60 mm\r\n0.73 mm\r\n0.88 mm\r\n1.0 mm\r\n1.14 mm\r\n1.5 mm', 'kieg2.jpg', 3)");
 $db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Warwick RCL 30253 D6 gitárkábel', 1990, '3 m / 10 ft.,\r\nPipás - döntött 1/4 csatlakozó,\r\nMűanyag házban\r\nKülső átmérő :7 mm / 0.28\r\nColour: black\r\nAranyozott bevonat a csatlakozó hegyén', 'kieg3.jpg', 3)");
 $db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Warwick Rockbag Basic Line Szólógitár Tok', 5000, 'Puha tok vékony béléssel, szólógitárhoz\r\nVízlepergető anyag', 'kieg4.jpg', 3)");
-$db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Joyo JMT-9000B', 3500, 'Kromatikus hangoló és digitális metronóm egyben', 'kieg5.jpg', 0)");
+$db->exec("INSERT INTO termekek(nev, ar, leiras, kep, typeId) VALUES('Joyo JMT-9000B', 3500, 'Kromatikus hangoló és digitális metronóm egyben', 'kieg5.jpg', 3)");
 
 
 
