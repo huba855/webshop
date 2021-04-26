@@ -13,7 +13,10 @@ include './cart.php';
 </head>
 <body>
 <?php if(isset($_SESSION["message"])) { print $_SESSION["message"]; unset($_SESSION["message"]);}?>
+<?php include './menu.php'; ?>
+
 <h1><u>Gitárok</u></h1>
+	
 <?php
     
     $results = $db->query("select * from termekek where typeId = 0");
