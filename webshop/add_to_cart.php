@@ -10,9 +10,14 @@ else
 	
 	$item['id'] = $_POST['id'];
 	$item['darab'] = $_POST['darab'];
-	array_push($_SESSION["items"], $item);
-	//var_dump($_SESSION["items"]);
-	//unset($_SESSION["items"]);
+	if($item['darab'] > 0)
+	{
+		array_push($_SESSION["items"], $item);
+	}
+	else
+	{
+		$_SESSION['message'] = "0 darabot nem lehet hozzáadni a kosárhoz";
+	}
 }
 
 header('Location: ' . $_SERVER['HTTP_REFERER']);
