@@ -1,9 +1,9 @@
 *
 {
   color:rgb(255, 224, 179);
-  
   font-family: Arial, sans-serif;
 }
+
 #fo
 {
   width:100vw;
@@ -13,8 +13,6 @@
   background-size: 50vw 50vw;
   background-position: 100% 0%;
   background-color:black;
-  
-    
 }
 
 #cimkep
@@ -24,7 +22,6 @@
   margin-top:20px;
   margin-left:200px;
   border-radius:60px
-  
 }
 
 
@@ -58,29 +55,24 @@
   text-align:left;
 }
 
-.alap{ display: inline-block;
-text-decoration: none; text-align:
-left; font-size: 24px;
-line-height: 1.42857143; padding:
-20px 12px; margin-bottom: 10px;
-border: 40px solid transparent;
-border-radius: 4px; white-space:
-nowrap; vertical-align: middle; margin-left:20px;
- margin-top:140px;}
+.alap
+{ 
+  display: inline-block;
+  text-decoration: none; 
+  text-align: left; 
+  font-size: 24px;
+  line-height: 1.42857143; 
+  padding: 20px 12px; 
+  margin-bottom: 10px;
+  border: 40px solid transparent;
+  border-radius: 4px; 
+  white-space: nowrap; 
+  vertical-align: middle; 
+  margin-left:20px;
+  margin-top:140px;
+}
   
   
   
-#slideshow > div
-{
-   
-  position: absolute;
-  left: 200px; top:340px;
-  width:400px; height:400px;
 
-}
   
-.slide
-{
-  border-radius: 30px;
-  
-}
