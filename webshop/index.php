@@ -35,6 +35,18 @@
       case "guitar":
         include "./guitar.php";
         break;
+      case "bass":
+        include "./bass.php";
+        break;
+      case "amp":
+        include "./amp.php";
+        break;
+      case "misc":
+        include "./misc.php";
+        break;
+      case "cart":
+        include "./shopping_cart.php";
+        break;
       default:
         include "./guitar.php";
         break;
