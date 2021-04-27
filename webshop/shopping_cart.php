@@ -1,20 +1,5 @@
+<div>
 <?php
-include './cart.php';
-//unset($_SESSION["items"]);
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8'>
-
-<title>Gitárok</title>
-
-
-</head>
-<body>
-
-<?php
-
 
 if(isset($_SESSION["items"]))
 {
@@ -61,5 +46,4 @@ Fizetés módja: <br><input type="radio" name="pay" id="radio1" value="Készpén
 <button>Rendelés véglegesítése</button>
 </form>
 
-
-</body></html>
+</div>
