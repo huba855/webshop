@@ -26,6 +26,16 @@
     } 
 
     include './menu.php';
+    $page = $_GET["page"];
+    switch($page)
+    {
+      case "guitar":
+        include "./guitar.php";
+        break;
+      default:
+        include "./guitar.php";
+        break;
+    }
     ?>    
   </div>  
 </body>
