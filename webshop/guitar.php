@@ -1,21 +1,6 @@
-<?php 
-include './cart.php';
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8'>
-
-<title>Gitárok</title>
-
-<link rel='stylesheet' href='./static/style2.css'>
-
-</head>
-<body>
+<div>
 <?php if(isset($_SESSION["message"])) { print $_SESSION["message"]; unset($_SESSION["message"]);}?>
 <?php include './menu.php'; ?>
-
-<h1><u>Gitárok</u></h1>
 	
 <?php
     
@@ -36,13 +21,5 @@ include './cart.php';
         </form>
 	</div>";}
         
-?> 
-
-
-
-
-
-
-<?php print $kimenet; ?>
-</body>
-</html>
+print $kimenet; ?>
+</div>
