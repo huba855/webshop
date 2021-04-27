@@ -2,7 +2,7 @@
 <?php if(isset($_SESSION["message"])) { print $_SESSION["message"]; unset($_SESSION["message"]);}?>
 <?php
     
-    $results = $db->query("select * from termekek where typeId = 0");
+    $results = $db->query("select * from termekek where typeId = $typeID");
         $kimenet = "";
         while ($row= $results->fetchArray())
 		{

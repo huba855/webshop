@@ -33,22 +33,27 @@
     switch($page)
     {
       case "guitar":
-        include "./guitar.php";
+        $typeID = 0;
+        include "./item.php";
         break;
       case "bass":
-        include "./bass.php";
+        $typeID = 1;
+        include "./item.php";
         break;
       case "amp":
-        include "./amp.php";
+        $typeID = 2;
+        include "./item.php";
         break;
       case "misc":
-        include "./misc.php";
+        $typeID = 3;
+        include "./item.php";
         break;
       case "cart":
         include "./shopping_cart.php";
         break;
       default:
-        include "./guitar.php";
+        $typeID = 0;
+        include "./item.php";
         break;
     }
     ?>    
