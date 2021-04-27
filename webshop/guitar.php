@@ -1,7 +1,5 @@
 <div>
 <?php if(isset($_SESSION["message"])) { print $_SESSION["message"]; unset($_SESSION["message"]);}?>
-<?php include './menu.php'; ?>
-	
 <?php
     
     $results = $db->query("select * from termekek where typeId = 0");
