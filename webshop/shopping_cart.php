@@ -6,7 +6,7 @@ if(isset($_SESSION["items"]))
 $sum = 0;
 print "<table>
   <tr>
-    <th>Gitár név</th>
+    <th>Termék név</th>
     <th>Darab</th>
     <th>Ár</th>
   <tr>";
