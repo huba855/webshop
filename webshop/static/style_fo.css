@@ -125,7 +125,8 @@ background-color: grey;
 position: relative;
 top: 20px;
 right: 250px;
-background-color: black;	
+background-color: black;
+color: rgb(255, 224, 179);
 }
 
 #termek
