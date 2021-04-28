@@ -141,7 +141,54 @@ font-size: 30px;
 	
 }
 
+ul
+{
+position: relative;
+top: 300px;
+text-align: left;
+left:30px;
+line-height: 160%;
+font-size: 24px;
+}
 
+#rendel
+{
+position: relative;
+background-color: grey;
+top: 320px;
+right:1300px;
+font-size: 20px;
+}
+
+table
+{
+position: relative;
+top: 448px;
+left: 282px;
+text-align: center;
+}
+
+table, td, th, tbody, tr
+{
+border: solid 1px;
+border-color:rgb(255, 224, 179);
+padding: 3px;
+}
+
+input
+{
+	color: black;
+}
+
+#address
+{
+	width:15%;
+}
+
+#email
+{
+	width:13%;
+}
   
 
   
