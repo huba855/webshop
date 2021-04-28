@@ -2,6 +2,7 @@
 {
   color:rgb(255, 224, 179);
   font-family: Arial, sans-serif;
+  
 }
 
 #fo
@@ -17,11 +18,14 @@
 
 #cimkep
 {
-  width:450px;
-  height:200px;
+  width:400px;
+  height:400px;
   margin-top:20px;
   margin-left:200px;
-  border-radius:60px
+  border-radius:60px;
+  position: relative;
+  left: 8px;
+  
 }
 
 
@@ -64,15 +68,80 @@
   line-height: 1.42857143; 
   padding: 20px 12px; 
   margin-bottom: 10px;
-  border: 40px solid transparent;
+  border: 20px solid transparent;
   border-radius: 4px; 
   white-space: nowrap; 
   vertical-align: middle; 
-  margin-left:20px;
-  margin-top:140px;
+  position: relative;
+  top: 350px;
 }
-  
-  
+
+#nev
+{
+ position: relative;
+ right: 1120px;
+ top: 410px;
+  margin-top:10px;
+}
+
+#kep
+{
+position: relative;
+right: 1120px;
+top:423px;
+border-radius: 10px;
+}
+
+#leiras
+{
+position: relative;
+left: 500px;
+text-align: left;
+top:25px;
+line-height: 160%;
+margin-bottom: 4px;
+	
+}
+
+#ar
+{
+position: relative;
+font-size: 24px;
+top: 45px;
+right: 945px;
+color: green;
+}
+
+button
+{
+position: relative;
+top: 20px;
+right: 250px;
+background-color: grey;	
+}
+
+#db
+{
+position: relative;
+top: 20px;
+right: 250px;
+background-color: black;	
+}
+
+#termek
+{
+border-bottom-style: 5px solid;
+border-color: gold;
+margin-bottom: 5px;
+}
+
+.alap:hover
+{
+font-size: 30px;
+	
+}
+
+
   
 
   
