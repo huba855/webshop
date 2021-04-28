@@ -6,7 +6,7 @@ if(isset($_SESSION["items"]))
 $sum = 0;
 print "<table>
   <tr>
-    <th>Termék név</th>
+    <th>Termék neve</th>
     <th>Darab</th>
     <th>Ár</th>
   <tr>";
@@ -36,14 +36,16 @@ print "A kosarad üres";
 ?>
 
 <form method="POST" action="order.php">
-Név: <input type="text" name="name"/>
-Telefonszám: <input type="text" name="phone"/>
-Szállítási cím: <input type="text" name="address"/>
-Fizetés módja: <br><input type="radio" name="pay" id="radio1" value="Készpénz"><label for="Készpénz">Készpénz</label>
+<ul>
+<li>Név: <br><input type="text" name="name">
+<li>Telefonszám: <br><input type="text" name="phone">
+<li>Szállítási cím: <br><input type="text" name="address" id="address">
+<li>E-mail: <br><input type="text" name="email" id="email">
+<li>Fizetés módja: <br><input type="radio" name="pay" id="radio1" value="Készpénz"><label for="Készpénz">Készpénz</label>
   <br><input type="radio" name="pay" id="radio2" value="Bankkártya"><label for="Bankkártya">Bankkártya</label>
   <br><input type="radio" name="pay" id="radio3" value="Utalás"><label for="Utalás">Utalás</label>
-  
-<button>Rendelés véglegesítése</button>
+</ul>  
+<button id="rendel">Rendelés véglegesítése</button>
 </form>
 
 </div>
