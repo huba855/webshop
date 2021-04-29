@@ -128,7 +128,7 @@ font-size:20px;
 position: relative;
 font-size: 24px;
 bottom: 300px;
-left: 390px;
+left: 730px;
 color: green;
 }
 
@@ -136,7 +136,7 @@ button
 {
 position: relative;
 bottom: 320px;
-left: 850px;
+left: 1150px;
 background-color: grey;	
 }
 
@@ -144,7 +144,7 @@ background-color: grey;
 {
 position: relative;
 bottom: 320px;
-left: 850px;
+left: 1150px;
 background-color: black;
 color: rgb(255, 224, 179);	
 }
@@ -187,12 +187,12 @@ padding: 3px;
 
 input
 {
-color: black;
+	color: black;
 }
 
 #address, #email, #name, #phone
 {
-width:50%;
+	width:50%;
 }
 
 
