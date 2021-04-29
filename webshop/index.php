@@ -52,8 +52,8 @@
         include "./shopping_cart.php";
         break;
       default:
-        $typeID = 0;
-        include "./item.php";
+        //$typeID = 0;
+        //include "./item.php";
         break;
     }
     ?>    
