@@ -27,12 +27,6 @@ print "<tr>
 }
 print "<tr><td>Összesen</td><td></td><td>$sum</td></tr>";
 print "</table>";
-}
-else
-{
-print "A kosarad üres";
-}
-
 ?>
 
 <form method="POST" action="order.php">
@@ -44,8 +38,17 @@ print "A kosarad üres";
 <li>Fizetés módja: <br><input type="radio" name="pay" id="radio1" value="Készpénz"><label for="Készpénz">Készpénz</label>
   <br><input type="radio" name="pay" id="radio2" value="Bankkártya"><label for="Bankkártya">Bankkártya</label>
   <br><input type="radio" name="pay" id="radio3" value="Utalás"><label for="Utalás">Utalás</label>
-</ul>  
+</ul>
 <button id="rendel">Rendelés véglegesítése</button>
 </form>
+
+<?php
+}
+else
+{
+print "A kosarad üres";
+}
+
+?>
 
 </div>
