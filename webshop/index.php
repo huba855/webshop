@@ -14,15 +14,15 @@
   
 </head>
 <body>
-  <div id="fo">
+  
     
-    <div id="cimkont">
+    <div id="header">
       <img id="cimkep" alt="guitar shop" src="https://thumbs.dreamstime.com/b/guitar-shop-logo-crossing-guitars-black-white-two-best-92797459.jpg">
     </div>
     <?php
     if(isset($_SESSION["items"]))
     {
-      echo "<div id='kosar'><p>Kosárban lévő termékek száma: ". count($_SESSION["items"]) ."</p>";
+      echo "<p id='prodnum'>Kosárban lévő termékek száma: ". count($_SESSION["items"]) ."</p></div>";
     } 
 
     include './menu.php';
