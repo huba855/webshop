@@ -1,4 +1,4 @@
-<div>
+<div class="column">
 <?php
 
 if(isset($_SESSION["items"]))
