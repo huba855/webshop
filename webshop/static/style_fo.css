@@ -186,12 +186,17 @@ padding: 3px;
 
 input
 {
-	color: black;
+color: black;
 }
 
 #address, #email, #name, #phone
 {
-	width:50%;
+width:50%;
 }
 
+#empty
+{
+background-color: grey;
+font-size: 20px;
+}
 
