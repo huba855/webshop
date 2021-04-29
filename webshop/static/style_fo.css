@@ -1,62 +1,77 @@
-*
-{
-  color:rgb(255, 224, 179);
-  font-family: Arial, sans-serif;
+.header {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
   
 }
 
-#fo
-{
-  width:100vw;
-  height:100vw;
-  background-image: url(https://i.pinimg.com/originals/16/3d/cd/163dcd257155fcb7ad1a2637f347b60c.jpg);
-  background-repeat: no-repeat;
-  background-size: 50vw 50vw;
-  background-position: 100% 0%;
-  background-color:black;
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-left:5%;
+    
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
 }
 
 #cimkep
 {
-  width:400px;
-  height:400px;
+  width:300px;
+  height:300px;
   margin-top:20px;
   margin-left:200px;
   border-radius:60px;
   position: relative;
-  left: 8px;
+  left: -160px;
   
 }
 
-
-#kosar
+#prodnum
 {
-  text-align:right;
-  font-size:20px;
-  margin-right: 40px;
-  margin-left: 20px;
-  margin-top:-120px;
-  
-}
-
-
-
-
-
-#cimkont
-{
-  width:30%;
-  height:5%;
-  margin-bottom:60px;
-  margin-left:35px;
-   
-}
-
-#menu
-{
-  width:70%;
-  height: 10%;
-  text-align:left;
+	text-align: right;
+	position: relative;
+	bottom: 340px;
+	left:-50px;
+	font-size:20px;
 }
 
 .alap
@@ -73,33 +88,38 @@
   white-space: nowrap; 
   vertical-align: middle; 
   position: relative;
-  top: 350px;
+  left: 330px;
+  
 }
 
 #nev
 {
  position: relative;
- right: 1120px;
- top: 410px;
+ left: 39px;
+ bottom: -20px;
   margin-top:10px;
+  font-size: 20px;
+  color: black;
 }
 
 #kep
 {
 position: relative;
-right: 1120px;
-top:423px;
+bottom: -50px;
+
 border-radius: 10px;
 }
 
 #leiras
 {
 position: relative;
-left: 500px;
+left: 730px;
 text-align: left;
-top:25px;
+bottom:340px;
 line-height: 160%;
 margin-bottom: 4px;
+color: black;
+font-size:20px;
 	
 }
 
@@ -107,89 +127,72 @@ margin-bottom: 4px;
 {
 position: relative;
 font-size: 24px;
-top: 45px;
-right: 945px;
+bottom: 300px;
+left: 390px;
 color: green;
 }
 
 button
 {
 position: relative;
-top: 20px;
-right: 250px;
+bottom: 320px;
+left: 850px;
 background-color: grey;	
 }
 
 #db
 {
 position: relative;
-top: 20px;
-right: 250px;
+bottom: 320px;
+left: 850px;
 background-color: black;
-color: rgb(255, 224, 179);
-}
-
-#termek
-{
-border-bottom-style: 5px solid;
-border-color: gold;
-margin-bottom: 5px;
-}
-
-.alap:hover
-{
-font-size: 30px;
-	
+color: rgb(255, 224, 179);	
 }
 
 ul
 {
 position: relative;
-top: 300px;
+bottom: 80px;
 text-align: left;
-left:30px;
+left:10%;
 line-height: 160%;
 font-size: 24px;
+
 }
 
 #rendel
 {
 position: relative;
 background-color: grey;
-top: 320px;
-right:1300px;
+left: 10%;
+bottom:50px;
 font-size: 20px;
 }
 
 table
 {
 position: relative;
-top: 448px;
-left: 282px;
+bottom: -94px;
+left: 700px;
 text-align: center;
+font-size: 24px;
 }
 
 table, td, th, tbody, tr
 {
 border: solid 1px;
-border-color:rgb(255, 224, 179);
+border-color:black;
 padding: 3px;
 }
 
 input
 {
-	color: black;
+color: black;
 }
 
-#address
+#address, #email, #name, #phone
 {
-	width:15%;
+width:50%;
 }
 
-#email
-{
-	width:13%;
-}
-  
 
-  
