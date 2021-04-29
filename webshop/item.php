@@ -7,7 +7,7 @@
         while ($row= $results->fetchArray())
 		{
 			$kimenet.="
-				<div>
+				<div class='column'>
 				<h2>{$row['nev']}</h2>
 				<img id='kep' src=./static/{$row['kep']}>
 				<p id='leiras'>{$row['leiras']}</p>
