@@ -41,7 +41,7 @@ print "</table>";
 </ul>
 <button id="rendel">Rendelés véglegesítése</button>
 </form>
-<a href="./empty_cart.php">Kosár ürítése</a>
+<a id="empty" href="./empty_cart.php">Kosár ürítése</a>
 <?php
 }
 else
