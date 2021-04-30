@@ -43,6 +43,7 @@ $db->exec("CREATE TABLE IF NOT EXISTS rendelesek(
 id INTEGER PRIMARY KEY, 
 felhasznalo_id INTEGER, 
 termek_id INTEGER,
+count INTEGER,
 FOREIGN KEY (felhasznalo_id) REFERENCES felhasznalok(id),
 FOREIGN KEY (termek_id) REFERENCES termekek(id))");
 
