@@ -18,7 +18,7 @@ $results = $db->query("select * from termekek where id=".$guitar_id);
 $guitar = $results->fetchArray();
 $guitar_name = $guitar['nev'];
 $guitar_price = $guitar['ar'];
-$sum += $guitar_price;
+$sum += $guitar count * $guitar_price;
 print "<tr>
     <td>$guitar_name</td>
     <td>$guitar_count</td>
