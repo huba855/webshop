@@ -196,7 +196,14 @@ width:50%;
 
 #empty
 {
+#empty
+{
+position: relative;
 background-color: grey;
+left: 10%;
+top:8px;
 font-size: 20px;
+color:black;
+}
 }
 
