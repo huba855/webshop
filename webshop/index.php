@@ -17,7 +17,7 @@
   
     
     <div id="header">
-      <img id="cimkep" alt="guitar shop" src="https://thumbs.dreamstime.com/b/guitar-shop-logo-crossing-guitars-black-white-two-best-92797459.jpg">
+      <img id="cimkep" alt="guitar shop" src="./static/logo.jpg">
     </div>
     <?php
     if(isset($_SESSION["items"]))
